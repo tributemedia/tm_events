@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\views\ViewExecutable;
+  
+/**
+* Implements hook_views_pre_render().
+*/
+function tm_events_views_pre_render(ViewExecutable $view) {
+  if (isset($view) && ($view->storage->id() == 'events')) {
+    $view->element['#attached']['library'][] = 'tm_events/events-view';
+  }
+}

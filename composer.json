@@ -1,0 +1,18 @@
+{
+    "name": "tributemdeia/tm_events",
+    "description": "Provides Event content type and related configuration. Use Events to create new events to display in your events calendar. New events will be automatically added to your calendar once they are published.",
+    "type": "drupal-module",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Tributemdeia\\TmEvents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "skenley",
+            "email": "steve.kenley@gmail.com"
+        }
+    ],
+    "require": {}
+}

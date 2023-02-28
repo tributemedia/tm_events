@@ -1,0 +1,22 @@
+name: Events
+description: 'Provides Event content type and related configuration. Use Events to create new events to display in your events calendar. New events will be automatically added to your calendar once they are published.'
+type: module
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - address
+  - adv_block_class
+  - block
+  - context
+  - field
+  - field_group
+  - menu_ui
+  - node
+  - path
+  - pathauto
+  - smart_date
+  - smart_date_recur
+  - system
+  - text
+  - user
+  - views
+version: 1.0.0-alpha1

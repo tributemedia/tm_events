@@ -1,0 +1,5 @@
+events-view:
+  css:
+    theme:
+      css/events.css: {}
+      

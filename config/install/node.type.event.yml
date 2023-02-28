@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: 'Use Events to create new events to display in your events calendar. New events will be automatically added to your calendar once they are published.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
