@@ -2,4 +2,8 @@ events-view:
   css:
     theme:
       css/events.css: {}
+events-node:
+  css:
+    theme:
+      css/event_node.css: {}
       
