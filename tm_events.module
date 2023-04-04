@@ -10,3 +10,14 @@ function tm_events_views_pre_render(ViewExecutable $view) {
     $view->element['#attached']['library'][] = 'tm_events/events-view';
   }
 }
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function tm_events_preprocess_node(&$variables) {
+  $node = $variables['node'];
+  //check content type
+  if ($node->getType() == 'event') {
+    $variables['#attached']['library'][] = 'tm_events/events-node';
+  }
+}
