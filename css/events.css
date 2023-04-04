@@ -69,36 +69,3 @@
 .events-text.events-text-block .views-row {
     margin-bottom: 10px;
 }
-
-/* ========================== */
-/* = Event Node View Styles = */
-/* ========================== */
-
-#event-left.left-column {
-	float:none;
-	min-width:278px;
-}
-
-#event-left .field-location {
-	margin-bottom:20px;
-}
-
-#event-left .next_instance {
-	font-weight:600;
-	font-size:1.25rem;
-	margin-bottom:5px;
-}
-
-#event-left .field-location .organization {
-	font-weight:600;
-}
-
-@media (min-width:768px){
-	article.node--type-event .node__content {
-		display:flex;
-	}
-	#event-right.right-column {
-		border-left:1px solid #c3c3c3;
-		padding-left: 20px;
-	}
-}
