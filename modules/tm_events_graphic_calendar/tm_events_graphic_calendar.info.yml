@@ -1,7 +1,7 @@
 name: Events Graphic Calendar
 description: 'Adds a graphical calendar view option to the TM Events feature.'
 type: module
-core_version_requirements: '^9'
+core_version_requirement: '^9'
 dependencies:
   - full_calendar_view
   - tm_events
